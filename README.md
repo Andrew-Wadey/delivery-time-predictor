@@ -49,18 +49,13 @@ This keeps the model simple enough to explain, while still valuable to showcase 
 
 ### 🏗️ Project Structure
 
-.
+'''.
 ├── data/               # Raw & processed data files
-
 ├── notebooks/          # Jupyter notebooks for exploration & model training
-
 ├── model/              # Saved ML model (.joblib) and preprocessing pipeline
-
 ├── app/                # Streamlit app frontend
-
 ├── requirements.txt    # Python dependencies
-
-└── README.md
+└── README.md'''
 
 
 ---
