@@ -64,13 +64,17 @@ Run locally or deploy to Streamlit Cloud / Hugging Face Spaces
 
 ## ▶️ Quick Start
 1. Install dependencies
+```
 bash
 Copy code
 pip install -r requirements.txt
+```
 2. Run the Streamlit App
+```
 bash
 Copy code
 streamlit run app/app.py
+```
 3. Predict ETA
 Enter shipment details:
 
