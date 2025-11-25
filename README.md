@@ -167,5 +167,7 @@ Delivery risk scoring
 ### 📬 Contact
 
 Maintainer: Andrew Wade
+
 Email: andrewwadeai@gmail.com
+
 LinkedIn: www.linkedin.com/in/andrew-wade-1758-lewagon
