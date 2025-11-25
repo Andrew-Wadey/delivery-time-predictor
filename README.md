@@ -1,97 +1,78 @@
 # 🚚 Delivery ETA Prediction Tool
-AI-Powered Estimated Time of Arrival for Small & Medium Logistics Operators
 
-This project demonstrates a complete end-to-end AI solution for predicting delivery times based on logistics features such as distance, weather, package characteristics, and time of day.
-Built as a quick but realistic MVP, it shows your ability to deliver practical AI value to SMEs—especially those in logistics, transport, and delivery services.
+### AI-Powered Estimated Time of Arrival for Small & Medium Logistics Operators
 
----
-
-### 🎯 Why This Project
-
-Small and mid-sized logistics companies often give broad delivery windows (“1–5 days”) due to lack of prediction models.
-This tool solves that by providing precise ETA predictions using machine learning.
+This project demonstrates a complete end-to-end AI solution for predicting delivery times based on logistics features such as distance, weather, package characteristics, and time of day.  
+Built as a quick MVP, it shows applied AI value for SMEs in logistics, transport, and delivery services.
 
 ---
 
-### ✨ Business impact:
+## 🎯 Why This Project
+Small and mid-sized logistics companies often give broad delivery windows (“1–5 days”) due to lack of prediction models.  
+This tool provides **precise ETA predictions** using machine learning.
 
-More accurate delivery estimates for customers
-
-Better route planning and scheduling
-
-Improved communication and SLA management
-
-Reduced support tickets (“Where’s my package?”)
-
-Creates a foundation for future optimization (routing, capacity planning, pricing)
-
----
-
-### 🧠 What the Model Predicts
-
-Given simple inputs, the tool predicts Estimated Time of Arrival (in hours/days) based on:
-
-Origin → Destination distance
-
-Time of day
-
-Day of week
-
-Traffic index
-
-Weather conditions
-
-Package weight & category
-
-This keeps the model simple enough to explain, while still valuable to showcase applied AI.
+### ✨ Business Impact
+- Accurate delivery estimates for customers  
+- Better route planning and scheduling  
+- Improved communication and SLA management  
+- Reduced support inquiries  
+- Foundation for future optimization (routing, capacity planning, pricing)
 
 ---
 
-### 🏗️ Project Structure
+## 🧠 What the Model Predicts
+Given inputs, the tool predicts **Estimated Time of Arrival (ETA)** based on:
 
-'''.
+- Distance between origin and destination  
+- Time of day & day of week  
+- Traffic index  
+- Weather conditions  
+- Package weight & category
+
+---
+
+## 🏗️ Project Structure
+
+```text
+.
 ├── data/               # Raw & processed data files
 ├── notebooks/          # Jupyter notebooks for exploration & model training
 ├── model/              # Saved ML model (.joblib) and preprocessing pipeline
 ├── app/                # Streamlit app frontend
 ├── requirements.txt    # Python dependencies
-└── README.md'''
-
-
+└── README.md
+```
 ---
 
-### 🚀 Features
-
+## 🚀 Features
 ✔ Machine Learning Model
+Preprocessing + training pipeline
 
-Trained using scikit-learn
+Baseline Random Forest / Gradient Boosting
 
-Includes preprocessing (encoding, scaling)
-
-Saved as a .joblib file for production use
-
-Designed to be swapped with a real dataset later
+Saved as .joblib for inference
 
 ✔ Streamlit Web App
+Simple UI for entering shipment details
 
-Simple UI where you enter shipment details and receive a predicted ETA.
+Predicts ETA with confidence estimate
 
 ✔ Easy Deployment
-
-Can be run locally or deployed on Streamlit Cloud / Hugging Face Spaces.
+Run locally or deploy to Streamlit Cloud / Hugging Face Spaces
 
 ---
 
-### ▶️ Quick Start
+## ▶️ Quick Start
 1. Install dependencies
+bash
+Copy code
 pip install -r requirements.txt
-
 2. Run the Streamlit App
+bash
+Copy code
 streamlit run app/app.py
-
 3. Predict ETA
-
-Enter:
+Enter shipment details:
 
 Origin & destination
 
@@ -109,25 +90,23 @@ Traffic index
 
 ---
 
-### 📊 Model Training
+## 📊 Model Training
+The notebook in /notebooks includes:
 
-The notebook in notebooks/ includes:
-
-EDA (distance, weather impact, traffic patterns)
+Data cleaning and preprocessing
 
 Feature engineering
 
 Train/test split
 
-Model selection (Linear Regression / Random Forest)
-
-Evaluation (MAE, RMSE)
+Model training & evaluation (MAE, RMSE)
 
 Saving the final model
 
-🔧 Tech Stack
+---
 
-Python 3.11
+## 🔧 Tech Stack
+Python 3.10+
 
 Pandas / NumPy
 
@@ -137,36 +116,9 @@ Streamlit
 
 Joblib
 
-### 💼 Real-World Relevance
-
 ---
 
-This MVP mirrors what SMEs actually need:
-
-Fast setup
-
-Lightweight infrastructure
-
-Practical insights
-
-Immediate business value
-
-It’s also intentionally built to be extended:
-
-Real API-driven weather & traffic data
-
-Route optimization
-
-Fleet assignment
-
-Cost estimation
-
-Delivery risk scoring
-
----
-
-### 📬 Contact
-
+## 📬 Contact
 Maintainer: Andrew Wade
 
 Email: andrewwadeai@gmail.com
