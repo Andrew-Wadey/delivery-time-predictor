@@ -8,10 +8,12 @@ Built as a quick MVP, it shows applied AI value for SMEs in logistics, transport
 ---
 
 ## 🎯 Why This Project
+
 Small and mid-sized logistics companies often give broad delivery windows (“1–5 days”) due to lack of prediction models.  
 This tool provides **precise ETA predictions** using machine learning.
 
 ### ✨ Business Impact
+
 - Accurate delivery estimates for customers  
 - Better route planning and scheduling  
 - Improved communication and SLA management  
@@ -21,6 +23,7 @@ This tool provides **precise ETA predictions** using machine learning.
 ---
 
 ## 🧠 What the Model Predicts
+
 Given inputs, the tool predicts **Estimated Time of Arrival (ETA)** based on:
 
 - Distance between origin and destination  
@@ -45,6 +48,7 @@ Given inputs, the tool predicts **Estimated Time of Arrival (ETA)** based on:
 ---
 
 ## 🚀 Features
+
 ✔ Machine Learning Model
 
 - Preprocessing + training pipeline
@@ -66,6 +70,7 @@ Given inputs, the tool predicts **Estimated Time of Arrival (ETA)** based on:
 ---
 
 ## ▶️ Quick Start
+
 1. Install dependencies
 ```
 bash
@@ -79,53 +84,57 @@ Copy code
 streamlit run app/app.py
 ```
 3. Predict ETA
+   
 Enter shipment details:
 
-Origin & destination
+- Origin & destination
 
-Distance
+- Distance
 
-Package weight
+- Package weight
 
-Weather
+- Weather
 
-Time of day
+- Time of day
 
-Traffic index
+- Traffic index
 
 …and receive an AI-generated ETA.
 
 ---
 
 ## 📊 Model Training
+
 The notebook in /notebooks includes:
 
-Data cleaning and preprocessing
+- Data cleaning and preprocessing
 
-Feature engineering
+- Feature engineering
 
-Train/test split
+- Train/test split
 
-Model training & evaluation (MAE, RMSE)
+- Model training & evaluation (MAE, RMSE)
 
-Saving the final model
+- Saving the final model
 
 ---
 
 ## 🔧 Tech Stack
-Python 3.10+
 
-Pandas / NumPy
+- Python 3.10+
 
-Scikit-Learn
+- Pandas / NumPy
 
-Streamlit
+- Scikit-Learn
 
-Joblib
+- Streamlit
+
+- Joblib
 
 ---
 
 ## 📬 Contact
+
 Maintainer: Andrew Wade
 
 Email: andrewwadeai@gmail.com
