@@ -4,12 +4,12 @@ AI-Powered Estimated Time of Arrival for Small & Medium Logistics Operators
 This project demonstrates a complete end-to-end AI solution for predicting delivery times based on logistics features such as distance, weather, package characteristics, and time of day.
 Built as a quick but realistic MVP, it shows your ability to deliver practical AI value to SMEs—especially those in logistics, transport, and delivery services.
 
-🎯 Why This Project
+### 🎯 Why This Project
 
 Small and mid-sized logistics companies often give broad delivery windows (“1–5 days”) due to lack of prediction models.
 This tool solves that by providing precise ETA predictions using machine learning.
 
-✨ Business impact:
+### ✨ Business impact:
 
 More accurate delivery estimates for customers
 
@@ -21,7 +21,7 @@ Reduced support tickets (“Where’s my package?”)
 
 Creates a foundation for future optimization (routing, capacity planning, pricing)
 
-🧠 What the Model Predicts
+### 🧠 What the Model Predicts
 
 Given simple inputs, the tool predicts Estimated Time of Arrival (in hours/days) based on:
 
@@ -39,7 +39,7 @@ Package weight & category
 
 This keeps the model simple enough to explain, while still valuable to showcase applied AI.
 
-🏗️ Project Structure
+### 🏗️ Project Structure
 
 .
 ├── data/               # Raw & processed data files
@@ -49,7 +49,7 @@ This keeps the model simple enough to explain, while still valuable to showcase 
 ├── requirements.txt    # Python dependencies
 └── README.md
 
-🚀 Features
+### 🚀 Features
 
 ✔ Machine Learning Model
 
@@ -69,7 +69,7 @@ Simple UI where you enter shipment details and receive a predicted ETA.
 
 Can be run locally or deployed on Streamlit Cloud / Hugging Face Spaces.
 
-▶️ Quick Start
+### ▶️ Quick Start
 1. Install dependencies
 pip install -r requirements.txt
 
@@ -94,7 +94,7 @@ Traffic index
 
 …and receive an AI-generated ETA.
 
-📊 Model Training
+### 📊 Model Training
 
 The notebook in notebooks/ includes:
 
@@ -122,7 +122,7 @@ Streamlit
 
 Joblib
 
-💼 Real-World Relevance
+### 💼 Real-World Relevance
 
 This MVP mirrors what SMEs actually need:
 
@@ -146,7 +146,7 @@ Cost estimation
 
 Delivery risk scoring
 
-📬 Contact
+### 📬 Contact
 
 Maintainer: Andrew Wade
 Email: andrewwadeai@gmail.com
