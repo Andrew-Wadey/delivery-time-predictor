@@ -46,19 +46,22 @@ Given inputs, the tool predicts **Estimated Time of Arrival (ETA)** based on:
 
 ## 🚀 Features
 ✔ Machine Learning Model
-Preprocessing + training pipeline
 
-Baseline Random Forest / Gradient Boosting
+- Preprocessing + training pipeline
+  
+- Baseline Random Forest / Gradient Boosting
 
-Saved as .joblib for inference
+- Saved as .joblib for inference
 
 ✔ Streamlit Web App
-Simple UI for entering shipment details
 
-Predicts ETA with confidence estimate
+- Simple UI for entering shipment details
+
+- Predicts ETA with confidence estimate
 
 ✔ Easy Deployment
-Run locally or deploy to Streamlit Cloud / Hugging Face Spaces
+
+- Run locally or deploy to Streamlit Cloud / Hugging Face Spaces
 
 ---
 
