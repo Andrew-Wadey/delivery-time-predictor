@@ -4,10 +4,14 @@ AI-Powered Estimated Time of Arrival for Small & Medium Logistics Operators
 This project demonstrates a complete end-to-end AI solution for predicting delivery times based on logistics features such as distance, weather, package characteristics, and time of day.
 Built as a quick but realistic MVP, it shows your ability to deliver practical AI value to SMEs—especially those in logistics, transport, and delivery services.
 
+---
+
 ### 🎯 Why This Project
 
 Small and mid-sized logistics companies often give broad delivery windows (“1–5 days”) due to lack of prediction models.
 This tool solves that by providing precise ETA predictions using machine learning.
+
+---
 
 ### ✨ Business impact:
 
@@ -20,6 +24,8 @@ Improved communication and SLA management
 Reduced support tickets (“Where’s my package?”)
 
 Creates a foundation for future optimization (routing, capacity planning, pricing)
+
+---
 
 ### 🧠 What the Model Predicts
 
@@ -39,6 +45,8 @@ Package weight & category
 
 This keeps the model simple enough to explain, while still valuable to showcase applied AI.
 
+---
+
 ### 🏗️ Project Structure
 
 .
@@ -48,6 +56,8 @@ This keeps the model simple enough to explain, while still valuable to showcase 
 ├── app/                # Streamlit app frontend
 ├── requirements.txt    # Python dependencies
 └── README.md
+
+---
 
 ### 🚀 Features
 
@@ -68,6 +78,8 @@ Simple UI where you enter shipment details and receive a predicted ETA.
 ✔ Easy Deployment
 
 Can be run locally or deployed on Streamlit Cloud / Hugging Face Spaces.
+
+---
 
 ### ▶️ Quick Start
 1. Install dependencies
@@ -93,6 +105,8 @@ Time of day
 Traffic index
 
 …and receive an AI-generated ETA.
+
+---
 
 ### 📊 Model Training
 
@@ -124,6 +138,8 @@ Joblib
 
 ### 💼 Real-World Relevance
 
+---
+
 This MVP mirrors what SMEs actually need:
 
 Fast setup
@@ -145,6 +161,8 @@ Fleet assignment
 Cost estimation
 
 Delivery risk scoring
+
+---
 
 ### 📬 Contact
 
